@@ -14,7 +14,16 @@ export const handle = async ({ event, resolve }) => {
 		event.locals.pb.authStore.clear();
 		event.locals.user = undefined;
 	}
+  // Theme SSR prevents flickering themes at page load
+  let theme = event.cookies.get("theme");
+  if (theme) {
+    return await resolve(event, {
+      transformPageChunk: ({ html }) =>
+        html.replace('data-theme=""', `data-theme="${theme}"`),
+    });
+  }
 
+	
 	const response = await resolve(event);
 
 	response.headers.set('set-cookie', event.locals.pb.authStore.exportToCookie({ secure: false }));
