@@ -92,10 +92,10 @@
 	<footer class="footer items-center p-4 bg-base-200">
 		<div class="items-center grid-flow-col">
 			<p>
-				RewriteIT - Copyright © 2023 | <a href="/legal/privacy">Privacy</a> |
-				<a href="/legal/privacy">Terms</a>
+				YourCompany - Copyright © 2023 | <a href="/">Privacy</a> |
+				<a href="/">Terms</a>
 				|
-				<a href="/legal/imprint">Legal Notice</a>
+				<a href="/">Legal Notice</a>
 			</p>
 		</div>
 
