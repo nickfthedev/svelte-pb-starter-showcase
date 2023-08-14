@@ -1,5 +1,5 @@
 # Props to Huntabyte - See below
-I transformed the package into todays current Pocketbase and Sveltekit and added a Theme switcher to the layout. 
+I transformed the package into todays current Pocketbase and Sveltekit versions, added a Theme switcher to the layout and made some minor tweaks! 
 Hope you enjoy it!
 
 # Showcase - SvelteKit & PocketBase Application
