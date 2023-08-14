@@ -2,6 +2,8 @@
 I transformed the package into todays current Pocketbase and Sveltekit versions, added a Theme switcher to the layout and made some minor tweaks! 
 Hope you enjoy it!
 
+Link to original Repo: https://github.com/huntabyte/showcase
+
 # Showcase - SvelteKit & PocketBase Application
 
 This project is being built in a series on my [YouTube Channel](https://youtube.com/@huntabyte) focused on building a full stack application with SvelteKit, PocketBase, and DaisyUI. 
