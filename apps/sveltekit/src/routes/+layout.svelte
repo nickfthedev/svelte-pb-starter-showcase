@@ -36,7 +36,7 @@
 					<NavBarTree MenuTree={menuTree} isMobile={true} user={data.user} />
 				</ul>
 			</div>
-			<a class="btn btn-ghost normal-case text-xl">Showcase</a>
+			<a class="btn btn-ghost normal-case text-xl">SK x PB Starter</a>
 		</div>
 		<div class="navbar-center hidden lg:flex">
 			<ul class="menu menu-horizontal px-1">
@@ -51,7 +51,7 @@
 				</div>
 			{:else}
 				<div class="dropdown dropdown-end mr-4">
-					<a href="/pages/pricing" class="btn btn-primary btn-outline">
+					<a href="#" class="btn btn-primary btn-outline">
 						<Icon src={Star} class="h-6 text-yellow-600 w-6" />Go Pro
 					</a>
 				</div>
